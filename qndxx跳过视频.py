@@ -25,6 +25,8 @@ def main():
             f=open(yourstorage+"Android/data/com.tencent.mm/files/VideoCache/tools/"+a+"/0.seg","wb+")
             f.write(video1)
             f.close()
+        else:
+            f.close()
 
 
 while True:
