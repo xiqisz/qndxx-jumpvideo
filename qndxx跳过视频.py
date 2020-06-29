@@ -32,5 +32,6 @@ def main():
 
 
 while True:
-    main()
+    if os.path.exists(yourstorage+"Android/data/com.tencent.mm/files/VideoCache/tools") == True :
+        main()
     time.sleep(3)
